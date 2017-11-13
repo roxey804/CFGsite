@@ -25,14 +25,23 @@ header {
                border: 10px solid white;
                border-radius: 100px;
             }
-           ul {
+      
+      ul {
                padding: 10px;
-               background: green;
+               background-color: green;
+               text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FB550D;
            }
            li {
                display: inline;
                padding: 0px 10px 0px 10px;
+               font-family: Trebuchet MS
            }
+
+  li a:hover {
+    color: black; }
 
 body {
 	text-align: center;
@@ -66,6 +75,20 @@ margin-right: 2%; }
       color: black;
       font-family: courier;
 }
+.OutlineText {
+    font-family: Trebuchet MS;
+    font-size: 64px;
+    color: green;
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000; }
 
 </style>
 
@@ -75,23 +98,22 @@ margin-right: 2%; }
 
 
 <div class="top">
-  <h1> Womens Wellness</h1>
+  <div class="OutlineText">Women's Wellness</div>
+
   <h2>Directing you towards optimum health</h2>
 </div>
 
-<div class="about">
-  <button type="button" name="About Us"></button>
-</div>
 
-<div class="nav">
-  <ul>
-    <li><a href="#">Mental Health</a></li>
-     <li><a href="./Page3YP.html">Young people and children</a></li>
-  <li><a href="#">VAWG</a></li>
-  <li><a href="./Page2.html">Mental health</a></li>
+
+<ul id="nav">
+  <li><a href="./page2.html">Mental health</a></li>
+  <li><a href="./Page3YP.html">Young people and children</a></li>
+  <li><a href="./VAWG.html">VAWG</a></li>
+  <li><a href="./Fightingfit.html">Fighting fit</a></li>
   <li><a href="./contactus.html">Contact Us</a></li>
-  </ul>
-</div>
+</ul>
+
+
  </header>
 
  <div>
